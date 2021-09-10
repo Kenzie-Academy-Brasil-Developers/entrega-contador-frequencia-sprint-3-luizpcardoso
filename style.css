@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+
+}
+
+body {
+
+    background-color: #808080;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#textInput {
+
+    width: 90%;
+    margin: 20px auto;
+}
+#countButton {
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+    
+#lettersDiv {
+
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+#wordsDiv {
+
+    height: 200px;
+    height: 200px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+span {
+    max-width: 90%;
+}
+
+
+@media (min-width: 500px) {
+    #textInput {
+
+        width: 500px;
+
+    }
+
+    #countButton {
+
+        width: 500px;
+
+    }
+
+    #lettersDiv {
+
+        width: 500px;
+
+    }
+
+    #wordsDiv {
+
+        width: 500px;
+    }
+
+
+
+
+
+}
+
+
